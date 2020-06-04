@@ -12,8 +12,7 @@ package com.biz.model;
  * 
  * 클래스 : StudentClass
  * 변수 : studentName
- * method : studentList()
- * 
+ * method : studentList(); 
  */
 
 // 데이터를 담아서 method들 간에 이동할 때 사용하는 클래스
