@@ -11,6 +11,7 @@ public class Var_01 {
 		
 		
 		System.out.println(num1);
+		System.out.println();
 		
 	}
 

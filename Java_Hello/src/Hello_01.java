@@ -1,7 +1,7 @@
  
 public class Hello_01 {
 
-	// 시작점, Launcher
+	// 시작점,Launcher
 	public static void main(String[] args) {
 
 		// 큰 따옴표로 묶인 내용은 문자열 리터럴이라고 하며
