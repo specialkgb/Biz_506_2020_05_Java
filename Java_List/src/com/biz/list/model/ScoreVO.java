@@ -46,8 +46,5 @@ public class ScoreVO {
 	public void setStAvg(int stAvg) {
 		this.stAvg = stAvg;
 	}
-	
-	
-	
 
 }

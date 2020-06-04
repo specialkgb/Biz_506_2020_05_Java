@@ -8,6 +8,8 @@ public class ScoreVO {
 	private int math;
 
 	private int stSum;
+	
+	private int stAvg;
 
 	public int getStSum() {
 		return stSum;
@@ -25,7 +27,7 @@ public class ScoreVO {
 		this.stAvg = stAvg;
 	}
 
-	private int stAvg;
+	
 
 	public String getName() {
 		return name;

@@ -16,11 +16,8 @@ public class ScoreServiceV2 {
 
 	public void scoreSum() {
 		for (int i = 0; i < scoreList.length; i++) {
-			scoreList[i].setStSum(scoreList[i].getKor() + scoreList[i].getKor() + scoreList[i].getKor()
-
-			);
+			scoreList[i].setStSum(scoreList[i].getKor() + scoreList[i].getEng() + scoreList[i].getMath());
 			scoreList[i].setStAvg(scoreList[i].getStSum() / 3);
-
 		}
 	}
 
