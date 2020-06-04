@@ -35,6 +35,7 @@ public class ScoreEx_02 {
 		sService.scoreList(scoreList);		
 		
 		System.out.println();
+		System.out.println();
 		
 		ScoreServiceV2 sService2 = new ScoreServiceV2();
 		sService2.scoreList(scoreList);
