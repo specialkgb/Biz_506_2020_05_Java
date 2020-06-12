@@ -30,7 +30,9 @@ public class Hello_01 {
 		System.out.println(40.0 / 30.0 );
 		System.out.println(1000_000_0000L);
 		
+		char ch = 'a';
+		System.out.println(ch);
 		
-	}
+				}
 
-}
+	}
