@@ -3,7 +3,6 @@ package com.biz.hello;
 public class Hello_01 {
 	
 	/*
-	 * 
 	 * 컴퓨터에서 숫자의 취급
 	 * 숫자는 컴퓨터 메모리에 임시로 저장이 되고 
 	 * 연산처리가 되는데
