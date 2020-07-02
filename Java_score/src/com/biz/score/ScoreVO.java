@@ -1,68 +1,79 @@
 package com.biz.score;
 
 public class ScoreVO {
-
-	private int stNum;
-	private int stKor;
-	private int stEng;
-	private int stMath;
-	private int stSum;
-	private int stAvg;
+	/*
+	 * 성적처리 과정에서 1학생의 성적을 담는 Object변수 Value Object 라고 한다.
+	 */
+	private String Num;
+	private String Kor;
+	private String Eng;
+	private String Math;
+	private Float Sum;
+	private Float Avg;
 
 	public ScoreVO() {
 
-		this.stNum = 0;
-		this.stKor = 0;
-		this.stEng = 0;
-		this.stMath = 0;
+		this.Num = "학번을 입력하세요";
+		this.Kor = "국어점수를 입력하세요";
+		this.Eng = "영어점수를 입력하세요";
+		this.Math = "수학점수를 입력하세요";
 	}
 
-	public int getStNum() {
-		return stNum;
+	public ScoreVO(String num, String kor, String eng, String math) {
+		super();
+		Num = num;
+		Kor = kor;
+		Eng = eng;
+		Math = math;
+
 	}
 
-	public void setStNum(int stNum) {
-		this.stNum = stNum;
+	public String getNum() {
+		return Num;
 	}
 
-	public int getStKor() {
-		return stKor;
+	public void setNum(String num) {
+		Num = num;
 	}
 
-	public void setStKor(int stKor) {
-		this.stKor = stKor;
+	public String getKor() {
+		return Kor;
 	}
 
-	public int getStEng() {
-		return stEng;
+	public void setKor(String kor) {
+		Kor = kor;
 	}
 
-	public void setStEng(int stEng) {
-		this.stEng = stEng;
+	public String getEng() {
+		return Eng;
 	}
 
-	public int getStMath() {
-		return stMath;
+	public void setEng(String eng) {
+		Eng = eng;
 	}
 
-	public void setStMath(int stMath) {
-		this.stMath = stMath;
+	public String getMath() {
+		return Math;
 	}
 
-	public int getStSum() {
-		return stSum;
+	public void setMath(String math) {
+		Math = math;
 	}
 
-	public void setStSum(int stSum) {
-		this.stSum = stSum;
+	public Float getSum() {
+		return Sum;
 	}
 
-	public int getStAvg() {
-		return stAvg;
+	public void setSum(Float sum) {
+		Sum = sum;
 	}
 
-	public void setStAvg(int stAvg) {
-		this.stAvg = stAvg;
+	public Float getAvg() {
+		return Avg;
+	}
+
+	public void setAvg(Float avg) {
+		Avg = avg;
 	}
 
 }
