@@ -11,27 +11,16 @@ package com.biz.student.service;
 
 public interface ScoreService {
 	
-	public void inputStudent() {
-		
-	}
+	public void inputStudent();
 	
 	
-	
-	public void inputScore() {
-		
-	}
+	public void inputScore();
 	
 	
+	public void calcSum();
+
 	
-	public void calcSum() {
-		
-	}
-	
-	
-	
-	public void calcAvg() {
-		
-	}
+	public void calcAvg();
 	/*
 	 * =====================================================
 	 * 성적일람표
@@ -39,10 +28,7 @@ public interface ScoreService {
 	 * 학번		이름	국어	영어	수학	총점	평균
 	 * -----------------------------------------------------
 	 */
-	
-	public void scoreList() {
-		
-	}
+	public void scoreList();
 	
 
 }

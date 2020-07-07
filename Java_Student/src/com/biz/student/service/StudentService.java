@@ -10,7 +10,7 @@ package com.biz.student.service;
  * Service 클래스는 특별한 경우가 아니면 먼저 interface를 만들어서
  * 어떤 method를 만들것인가 디자인 하는 것이 좋다.
  */
-public interface StudentService {	
+public interface StudentService {
 	/*
 	 * 학생정보를 키보드로 입력하는 method
 	 * 1.학생 1명의 정보를 키보드로 입력받고
